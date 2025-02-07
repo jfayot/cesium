@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.127 - 2025-03-03
+
+### @cesium/engine
+
+#### Fixes :wrench:
+
+- Fixed broken Entity Tracking [sandcastle](https://sandcastle.cesium.com/?src=Entity%20tracking.html). [#12467](https://github.com/CesiumGS/cesium/pull/12467)
+
 ## 1.126 - 2025-02-03
 
 ### @cesium/engine
