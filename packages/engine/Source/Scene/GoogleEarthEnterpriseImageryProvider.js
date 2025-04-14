@@ -2,7 +2,7 @@ import Check from "../Core/Check.js";
 import Credit from "../Core/Credit.js";
 import decodeGoogleEarthEnterpriseData from "../Core/decodeGoogleEarthEnterpriseData.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Event from "../Core/Event.js";
 import GeographicTilingScheme from "../Core/GeographicTilingScheme.js";
 import GoogleEarthEnterpriseMetadata from "../Core/GoogleEarthEnterpriseMetadata.js";

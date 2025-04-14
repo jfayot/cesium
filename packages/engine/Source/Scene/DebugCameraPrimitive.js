@@ -2,7 +2,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Color from "../Core/Color.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import FrustumGeometry from "../Core/FrustumGeometry.js";

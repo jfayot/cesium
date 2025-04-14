@@ -10,7 +10,7 @@ import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribu
 import createGuid from "../Core/createGuid.js";
 import CullingVolume from "../Core/CullingVolume.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import Ellipsoid from "../Core/Ellipsoid.js";

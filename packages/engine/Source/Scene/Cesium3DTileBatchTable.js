@@ -3,7 +3,7 @@ import Check from "../Core/Check.js";
 import clone from "../Core/clone.js";
 import Color from "../Core/Color.js";
 import combine from "../Core/combine.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import deprecationWarning from "../Core/deprecationWarning.js";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";

@@ -1,5 +1,5 @@
 import Cartesian3 from "./Cartesian3.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import JulianDate from "./JulianDate.js";
 import CesiumMath from "./Math.js";

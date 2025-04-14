@@ -1,5 +1,5 @@
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import Resource from "./Resource.js";
 import RuntimeError from "./RuntimeError.js";

@@ -2,7 +2,7 @@ import BoundingSphere from "../Core/BoundingSphere.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import Cartesian4 from "../Core/Cartesian4.js";
 import Cartographic from "../Core/Cartographic.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import IndexDatatype from "../Core/IndexDatatype.js";
 import IntersectionTests from "../Core/IntersectionTests.js";
 import PixelFormat from "../Core/PixelFormat.js";

@@ -3,7 +3,7 @@ import Credit from "./Credit.js";
 import Frozen from "./Frozen.js";
 import Rectangle from "./Rectangle.js";
 import Resource from "./Resource.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import RuntimeError from "./RuntimeError.js";
 

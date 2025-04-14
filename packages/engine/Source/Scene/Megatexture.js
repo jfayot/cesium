@@ -2,7 +2,7 @@ import Cartesian2 from "../Core/Cartesian2.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
 import ContextLimits from "../Renderer/ContextLimits.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import CesiumMath from "../Core/Math.js";

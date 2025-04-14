@@ -3,7 +3,7 @@ import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
 import ComponentDatatype from "./ComponentDatatype.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Geometry from "./Geometry.js";
 import GeometryAttribute from "./GeometryAttribute.js";
 import GeometryAttributes from "./GeometryAttributes.js";

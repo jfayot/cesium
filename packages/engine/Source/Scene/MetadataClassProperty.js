@@ -4,7 +4,7 @@ import Cartesian4 from "../Core/Cartesian4.js";
 import Check from "../Core/Check.js";
 import clone from "../Core/clone.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Matrix2 from "../Core/Matrix2.js";
 import Matrix3 from "../Core/Matrix3.js";

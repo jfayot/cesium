@@ -1,6 +1,6 @@
 import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * A fixed-point encoding of a {@link Cartesian3} with 64-bit floating-point components, as two {@link Cartesian3}

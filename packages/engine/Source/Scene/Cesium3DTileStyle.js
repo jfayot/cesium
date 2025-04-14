@@ -1,6 +1,6 @@
 import clone from "../Core/clone.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Resource from "../Core/Resource.js";
 import ConditionsExpression from "./ConditionsExpression.js";

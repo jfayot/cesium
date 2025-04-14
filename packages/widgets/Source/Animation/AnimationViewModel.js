@@ -2,10 +2,10 @@ import {
   binarySearch,
   ClockRange,
   ClockStep,
-  defined,
   DeveloperError,
   JulianDate,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 
 import knockout from "../ThirdParty/knockout.js";
 import createCommand from "../createCommand.js";

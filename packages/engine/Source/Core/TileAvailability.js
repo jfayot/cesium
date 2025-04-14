@@ -1,6 +1,6 @@
 import binarySearch from "./binarySearch.js";
 import Cartographic from "./Cartographic.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Rectangle from "./Rectangle.js";
 
 /**

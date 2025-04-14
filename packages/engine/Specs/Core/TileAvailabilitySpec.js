@@ -4,8 +4,8 @@ import {
   Rectangle,
   TileAvailability,
   WebMercatorTilingScheme,
-  defined,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Core/TileAvailability", function () {
   const webMercator = new WebMercatorTilingScheme();

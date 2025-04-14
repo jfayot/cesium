@@ -2,10 +2,10 @@ import Cartesian2 from "./Cartesian2.js";
 import Cartesian3 from "./Cartesian3.js";
 import ComponentDatatype from "./ComponentDatatype.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
 import DeveloperError from "./DeveloperError.js";
 import CesiumMath from "./Math.js";
 import AttributeType from "../Scene/AttributeType.js";
+import { defined } from "@cesium/utils";
 
 const RIGHT_SHIFT = 1.0 / 256.0;
 const LEFT_SHIFT = 256.0;

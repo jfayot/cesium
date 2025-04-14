@@ -1,6 +1,6 @@
 import ForEach from "./ForEach.js";
 import Check from "../../Core/Check.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Calls the provider handler function on each texture used by the material.

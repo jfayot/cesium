@@ -1,6 +1,6 @@
 import Check from "../../Core/Check.js";
 import Frozen from "../../Core/Frozen.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import PrimitiveType from "../../Core/PrimitiveType.js";
 import SceneMode from "../SceneMode.js";
 import AlphaPipelineStage from "./AlphaPipelineStage.js";

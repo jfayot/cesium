@@ -2,7 +2,6 @@ import {
   AttributeType,
   combine,
   ComponentDatatype,
-  defined,
   GeometryPipelineStage,
   ModelStatistics,
   GltfLoader,
@@ -12,7 +11,8 @@ import {
   SelectedFeatureIdPipelineStage,
   ShaderBuilder,
   VertexAttributeSemantic,
-} from "../../../index.js";
+} from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import createScene from "../../../../../Specs/createScene.js";
 import waitForLoaderProcess from "../../../../../Specs/waitForLoaderProcess.js";
 import ShaderBuilderTester from "../../../../../Specs/ShaderBuilderTester.js";

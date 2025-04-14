@@ -1,10 +1,10 @@
 import {
-  defined,
   EarthOrientationParameters,
   JulianDate,
   TimeStandard,
   RuntimeError,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Core/EarthOrientationParameters", function () {
   let officialLeapSeconds;

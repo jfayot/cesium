@@ -3,11 +3,11 @@ import {
   Cartographic,
   CesiumTerrainProvider,
   createWorldTerrainAsync,
-  defined,
   RequestScheduler,
   Resource,
   sampleTerrain,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Core/sampleTerrain", function () {
   let worldTerrain;

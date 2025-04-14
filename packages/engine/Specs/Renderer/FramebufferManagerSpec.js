@@ -1,5 +1,4 @@
 import {
-  defined,
   Color,
   ClearCommand,
   Framebuffer,
@@ -10,6 +9,7 @@ import {
   RenderbufferFormat,
   Texture,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createContext from "../../../../Specs/createContext.js";
 

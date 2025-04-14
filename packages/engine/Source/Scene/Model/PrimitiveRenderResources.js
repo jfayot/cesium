@@ -2,7 +2,7 @@ import BoundingSphere from "../../Core/BoundingSphere.js";
 import Cartesian3 from "../../Core/Cartesian3.js";
 import Check from "../../Core/Check.js";
 import clone from "../../Core/clone.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import ModelUtility from "./ModelUtility.js";
 import ModelLightingOptions from "./ModelLightingOptions.js";
 

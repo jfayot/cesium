@@ -4,7 +4,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Cartesian4 from "../Core/Cartesian4.js";
 import Cartographic from "../Core/Cartographic.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import EasingFunction from "../Core/EasingFunction.js";
 import Ellipsoid from "../Core/Ellipsoid.js";

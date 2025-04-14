@@ -1,6 +1,6 @@
 import CesiumMath from "./Math.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Array-backed min-max heap implementation of a double-ended priority queue.

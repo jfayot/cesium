@@ -6,7 +6,7 @@ import RenderbufferFormat from "./RenderbufferFormat.js";
 import Sampler from "./Sampler.js";
 import Texture from "./Texture.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import PixelFormat from "../Core/PixelFormat.js";
 

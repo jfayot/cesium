@@ -4,12 +4,12 @@ import Cartesian2 from "./Cartesian2.js";
 import Cartesian3 from "./Cartesian3.js";
 import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
 import DeveloperError from "./DeveloperError.js";
 import Ellipsoid from "./Ellipsoid.js";
 import GeographicTilingScheme from "./GeographicTilingScheme.js";
 import Rectangle from "./Rectangle.js";
 import Resource from "./Resource.js";
+import { defined } from "@cesium/utils";
 
 const scratchDiagonalCartesianNE = new Cartesian3();
 const scratchDiagonalCartesianSW = new Cartesian3();

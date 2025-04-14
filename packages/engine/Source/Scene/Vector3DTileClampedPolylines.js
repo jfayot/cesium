@@ -3,7 +3,7 @@ import Cartesian2 from "../Core/Cartesian2.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import Color from "../Core/Color.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import FeatureDetection from "../Core/FeatureDetection.js";

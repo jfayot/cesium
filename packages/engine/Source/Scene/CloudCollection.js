@@ -13,7 +13,7 @@ import CloudNoiseVS from "../Shaders/CloudNoiseVS.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
 import CumulusCloud from "./CumulusCloud.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import DrawCommand from "../Renderer/DrawCommand.js";

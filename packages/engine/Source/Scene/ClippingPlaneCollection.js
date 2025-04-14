@@ -5,7 +5,7 @@ import Cartesian4 from "../Core/Cartesian4.js";
 import Check from "../Core/Check.js";
 import Color from "../Core/Color.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";

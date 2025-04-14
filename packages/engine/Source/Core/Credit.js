@@ -1,6 +1,6 @@
 import DOMPurify from "dompurify";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 let nextCreditId = 0;
 const creditToId = {};

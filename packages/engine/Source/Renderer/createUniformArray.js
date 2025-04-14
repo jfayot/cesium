@@ -2,7 +2,7 @@ import Cartesian2 from "../Core/Cartesian2.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import Cartesian4 from "../Core/Cartesian4.js";
 import Color from "../Core/Color.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Matrix2 from "../Core/Matrix2.js";
 import Matrix3 from "../Core/Matrix3.js";

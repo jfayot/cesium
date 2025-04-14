@@ -4,7 +4,6 @@ import {
   Cartesian2,
   Cartesian3,
   Color,
-  defined,
   DistanceDisplayCondition,
   JulianDate,
   NearFarScalar,
@@ -19,6 +18,7 @@ import {
   VerticalOrigin,
   SplitDirection,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createGlobe from "../../../../Specs/createGlobe.js";
 import createScene from "../../../../Specs/createScene.js";

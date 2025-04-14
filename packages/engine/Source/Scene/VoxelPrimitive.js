@@ -11,7 +11,7 @@ import ClippingPlaneCollection from "./ClippingPlaneCollection.js";
 import clone from "../Core/clone.js";
 import CustomShader from "./Model/CustomShader.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import Event from "../Core/Event.js";

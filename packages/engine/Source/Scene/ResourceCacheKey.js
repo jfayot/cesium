@@ -1,6 +1,6 @@
 import Check from "../Core/Check.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import getAbsoluteUri from "../Core/getAbsoluteUri.js";
 import GltfLoaderUtil from "./GltfLoaderUtil.js";

@@ -1,6 +1,6 @@
 import Check from "../Core/Check.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Event from "../Core/Event.js";
 import IonResource from "../Core/IonResource.js";
 import RuntimeError from "../Core/RuntimeError.js";

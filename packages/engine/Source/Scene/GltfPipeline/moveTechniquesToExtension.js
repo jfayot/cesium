@@ -2,7 +2,7 @@ import addExtensionsUsed from "./addExtensionsUsed.js";
 import addExtensionsRequired from "./addExtensionsRequired.js";
 import addToArray from "./addToArray.js";
 import ForEach from "./ForEach.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Move glTF 1.0 material techniques to glTF 2.0 KHR_techniques_webgl extension.

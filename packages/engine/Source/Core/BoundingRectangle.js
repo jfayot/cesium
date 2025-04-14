@@ -1,11 +1,11 @@
 import Cartesian2 from "./Cartesian2.js";
 import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
 import Ellipsoid from "./Ellipsoid.js";
 import GeographicProjection from "./GeographicProjection.js";
 import Intersect from "./Intersect.js";
 import Rectangle from "./Rectangle.js";
+import { defined } from "@cesium/utils";
 
 /**
  * A bounding rectangle given by a corner, width and height.

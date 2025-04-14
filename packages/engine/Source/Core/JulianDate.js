@@ -1,5 +1,5 @@
 import binarySearch from "./binarySearch.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import GregorianDate from "./GregorianDate.js";
 import isLeapYear from "./isLeapYear.js";

@@ -2,7 +2,6 @@ import Cartesian2 from "./Cartesian2.js";
 import Check from "./Check.js";
 import Credit from "./Credit.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
 import Ellipsoid from "./Ellipsoid.js";
 import Event from "./Event.js";
 import GeographicTilingScheme from "./GeographicTilingScheme.js";
@@ -18,6 +17,7 @@ import TerrainProvider from "./TerrainProvider.js";
 import TileAvailability from "./TileAvailability.js";
 import TileProviderError from "./TileProviderError.js";
 import WebMercatorTilingScheme from "./WebMercatorTilingScheme.js";
+import { defined } from "@cesium/utils";
 
 const ALL_CHILDREN = 15;
 

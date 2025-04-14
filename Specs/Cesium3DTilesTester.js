@@ -2,7 +2,6 @@ import {
   Cartesian3,
   Color,
   Frozen,
-  defined,
   JulianDate,
   ImageBasedLighting,
   Resource,
@@ -10,6 +9,7 @@ import {
   Cesium3DTileset,
   TileBoundingSphere,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 
 import pollToPromise from "./pollToPromise.js";
 

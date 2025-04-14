@@ -1,6 +1,6 @@
 import Cartesian2 from "./Cartesian2.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "./Ellipsoid.js";
 import Rectangle from "./Rectangle.js";
 import WebMercatorProjection from "./WebMercatorProjection.js";

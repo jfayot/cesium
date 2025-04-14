@@ -1,4 +1,4 @@
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import PrimitiveType from "../Core/PrimitiveType.js";
 import BlendingState from "./BlendingState.js";
 import CullFace from "./CullFace.js";

@@ -1,7 +1,8 @@
 /**
- * @function
+ * @function defined
+ * @template T
  *
- * @param {*} value The object.
+ * @param {T} value The object.
  * @returns {boolean} Returns true if the object is defined, returns false otherwise.
  *
  * @example
@@ -11,7 +12,6 @@
  *      doSomethingElse();
  * }
  */
-function defined(value) {
+export default function defined<Type>(value: Type): value is NonNullable<Type> {
   return value !== undefined && value !== null;
 }
-export default defined;

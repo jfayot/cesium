@@ -5,7 +5,7 @@ import Cartographic from "../Core/Cartographic.js";
 import Color from "../Core/Color.js";
 import createGuid from "../Core/createGuid.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import Iso8601 from "../Core/Iso8601.js";

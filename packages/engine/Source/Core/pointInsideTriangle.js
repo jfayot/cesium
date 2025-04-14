@@ -1,6 +1,6 @@
 import barycentricCoordinates from "./barycentricCoordinates.js";
 import Cartesian3 from "./Cartesian3.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 const scratchBarycentricCoords = new Cartesian3();
 

@@ -4,7 +4,6 @@ import {
   Cartesian3,
   Cartographic,
   Color,
-  defined,
   Iso8601,
   JulianDate,
   Math as CesiumMath,
@@ -23,6 +22,7 @@ import {
   HorizontalOrigin,
   VerticalOrigin,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("DataSources/exportKml", function () {
   let kmlDoc;

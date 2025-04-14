@@ -1,4 +1,5 @@
-import { defer, Request, RequestScheduler, RequestState } from "../../index.js";
+import { Request, RequestScheduler, RequestState } from "../../index.js";
+import { defer } from "@cesium/utils";
 
 describe("Core/RequestScheduler", function () {
   let originalMaximumRequests;

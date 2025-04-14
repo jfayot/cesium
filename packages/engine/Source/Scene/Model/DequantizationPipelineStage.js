@@ -1,4 +1,4 @@
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Cartesian4 from "../../Core/Cartesian4.js";
 import ShaderDestination from "../../Renderer/ShaderDestination.js";
 import ModelUtility from "./ModelUtility.js";

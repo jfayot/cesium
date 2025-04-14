@@ -1,7 +1,7 @@
 import buildModuleUrl from "../Core/buildModuleUrl.js";
 import Color from "../Core/Color.js";
 import createGuid from "../Core/createGuid.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import AcesTonemapping from "../Shaders/PostProcessStages/AcesTonemappingStage.js";
 import AmbientOcclusionGenerate from "../Shaders/PostProcessStages/AmbientOcclusionGenerate.js";

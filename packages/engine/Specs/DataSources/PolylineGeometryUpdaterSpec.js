@@ -5,7 +5,6 @@ import {
   Cartesian3,
   Color,
   ColorGeometryInstanceAttribute,
-  defined,
   DistanceDisplayCondition,
   DistanceDisplayConditionGeometryInstanceAttribute,
   GroundPolylineGeometry,
@@ -30,6 +29,7 @@ import {
   GroundPolylinePrimitive,
   ShadowMode,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createDynamicProperty from "../../../../Specs/createDynamicProperty.js";
 import createScene from "../../../../Specs/createScene.js";

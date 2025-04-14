@@ -1,6 +1,6 @@
+import { defined } from "@cesium/utils";
 import {
   Cartesian2,
-  defined,
   DeveloperError,
   FeatureDetection,
   PrimitiveType,

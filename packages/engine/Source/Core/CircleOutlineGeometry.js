@@ -1,9 +1,9 @@
 import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
 import EllipseOutlineGeometry from "./EllipseOutlineGeometry.js";
 import Ellipsoid from "./Ellipsoid.js";
+import { defined } from "@cesium/utils";
 
 /**
  * A description of the outline of a circle on the ellipsoid.

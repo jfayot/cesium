@@ -2,7 +2,7 @@ import getAccessorByteStride from "./getAccessorByteStride.js";
 import getComponentReader from "./getComponentReader.js";
 import numberOfComponentsForType from "./numberOfComponentsForType.js";
 import ComponentDatatype from "../../Core/ComponentDatatype.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Finds the min and max values of the accessor.

@@ -3,7 +3,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Color from "../Core/Color.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
 import CullingVolume from "../Core/CullingVolume.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import deprecationWarning from "../Core/deprecationWarning.js";
 import destroyObject from "../Core/destroyObject.js";
 import Ellipsoid from "../Core/Ellipsoid.js";

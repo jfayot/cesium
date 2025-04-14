@@ -4,7 +4,7 @@ import Color from "../../Core/Color.js";
 import Check from "../../Core/Check.js";
 import ComponentDatatype from "../../Core/ComponentDatatype.js";
 import Frozen from "../../Core/Frozen.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../../Core/DeveloperError.js";
 import Matrix4 from "../../Core/Matrix4.js";
 import PrimitiveType from "../../Core/PrimitiveType.js";

@@ -3,7 +3,6 @@ import {
   Cartesian3,
   Color,
   ComponentDatatype,
-  defined,
   PixelFormat,
   Resource,
   ClearCommand,
@@ -16,6 +15,7 @@ import {
   TextureMinificationFilter,
   TextureWrap,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createContext from "../../../../Specs/createContext.js";
 

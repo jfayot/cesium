@@ -1,6 +1,6 @@
 import Uri from "urijs";
 import buildModuleUrl from "./buildModuleUrl.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "./destroyObject.js";
 import DeveloperError from "./DeveloperError.js";
 import Event from "./Event.js";

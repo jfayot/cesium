@@ -1,5 +1,5 @@
 import Cartesian2 from "./Cartesian2.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import sampleTerrain from "./sampleTerrain.js";
 

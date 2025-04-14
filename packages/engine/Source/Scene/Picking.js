@@ -5,7 +5,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Cartographic from "../Core/Cartographic.js";
 import Check from "../Core/Check.js";
 import Color from "../Core/Color.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Matrix4 from "../Core/Matrix4.js";
 import OrthographicFrustum from "../Core/OrthographicFrustum.js";

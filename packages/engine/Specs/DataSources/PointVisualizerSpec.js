@@ -2,7 +2,6 @@ import {
   BoundingSphere,
   Cartesian3,
   Color,
-  defined,
   DistanceDisplayCondition,
   Ellipsoid,
   Event,
@@ -19,6 +18,7 @@ import {
   PointPrimitiveCollection,
   SplitDirection,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 

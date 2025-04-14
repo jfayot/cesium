@@ -3,7 +3,7 @@ import Cartographic from "../Core/Cartographic.js";
 import Check from "../Core/Check.js";
 import createGuid from "../Core/createGuid.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";
 import CesiumMath from "../Core/Math.js";

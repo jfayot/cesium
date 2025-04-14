@@ -1,9 +1,9 @@
 import {
   buildModuleUrl,
-  defined,
   Iau2006XysData,
   Iau2006XysSample,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import pollToPromise from "../../../../Specs/pollToPromise.js";
 

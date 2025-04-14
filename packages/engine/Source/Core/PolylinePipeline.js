@@ -1,6 +1,6 @@
 import Cartesian3 from "./Cartesian3.js";
 import Cartographic from "./Cartographic.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import Ellipsoid from "./Ellipsoid.js";
 import EllipsoidGeodesic from "./EllipsoidGeodesic.js";

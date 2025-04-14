@@ -1,6 +1,6 @@
 import Cartesian3 from "../Core/Cartesian3.js";
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import MetadataType from "./MetadataType.js";
 import OrientedBoundingBox from "../Core/OrientedBoundingBox.js";
 

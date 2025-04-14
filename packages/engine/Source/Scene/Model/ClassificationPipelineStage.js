@@ -1,4 +1,4 @@
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import RuntimeError from "../../Core/RuntimeError.js";
 import ShaderDestination from "../../Renderer/ShaderDestination.js";
 import VertexAttributeSemantic from "../VertexAttributeSemantic.js";

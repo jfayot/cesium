@@ -4,7 +4,7 @@ import Cartesian3 from "./Cartesian3.js";
 import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
 import ComponentDatatype from "./ComponentDatatype.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "./Ellipsoid.js";
 import EllipsoidRhumbLine from "./EllipsoidRhumbLine.js";
 import Geometry from "./Geometry.js";

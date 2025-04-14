@@ -1,6 +1,6 @@
 import addExtensionsUsed from "./addExtensionsUsed.js";
 import ForEach from "./ForEach.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import WebGLConstants from "../../Core/WebGLConstants.js";
 
 const defaultBlendEquation = [WebGLConstants.FUNC_ADD, WebGLConstants.FUNC_ADD];

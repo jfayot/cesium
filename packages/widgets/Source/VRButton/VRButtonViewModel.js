@@ -1,5 +1,4 @@
 import {
-  defined,
   destroyObject,
   DeveloperError,
   EventHelper,
@@ -7,6 +6,7 @@ import {
   getElement,
   OrthographicFrustum,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import NoSleep from "nosleep.js";
 import createCommand from "../createCommand.js";

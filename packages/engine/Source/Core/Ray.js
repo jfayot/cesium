@@ -1,6 +1,6 @@
 import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Represents a ray that extends infinitely from the provided origin in the provided direction.

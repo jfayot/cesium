@@ -4,7 +4,7 @@ import Color from "../Core/Color.js";
 import createGuid from "../Core/createGuid.js";
 import Credit from "../Core/Credit.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";
 import getFilenameFromUri from "../Core/getFilenameFromUri.js";

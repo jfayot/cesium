@@ -1,6 +1,6 @@
 import Cartesian3 from "../Core/Cartesian3.js";
 import Color from "../Core/Color.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import IndexDatatype from "../Core/IndexDatatype.js";

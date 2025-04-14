@@ -1,7 +1,7 @@
 import Check from "../Core/Check.js";
 import createGuid from "../Core/createGuid.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 
 /**

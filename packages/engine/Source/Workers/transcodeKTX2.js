@@ -1,4 +1,4 @@
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Check from "../Core/Check.js";
 import PixelFormat from "../Core/PixelFormat.js";
 import RuntimeError from "../Core/RuntimeError.js";

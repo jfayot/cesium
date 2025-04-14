@@ -2,7 +2,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Cesium3DTilesetMetadata from "./Cesium3DTilesetMetadata.js";
 import Check from "../Core/Check.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import hasExtension from "./hasExtension.js";
 import ImplicitSubtree from "./ImplicitSubtree.js";

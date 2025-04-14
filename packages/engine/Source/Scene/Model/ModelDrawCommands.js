@@ -1,6 +1,6 @@
 import BoundingSphere from "../../Core/BoundingSphere.js";
 import clone from "../../Core/clone.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Matrix4 from "../../Core/Matrix4.js";
 import DrawCommand from "../../Renderer/DrawCommand.js";
 import RenderState from "../../Renderer/RenderState.js";

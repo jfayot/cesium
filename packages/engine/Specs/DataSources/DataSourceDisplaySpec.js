@@ -9,7 +9,6 @@ import {
   Entity,
   GroundPolylinePrimitive,
   GroundPrimitive,
-  defined,
   BillboardVisualizer,
   GeometryVisualizer,
   LabelVisualizer,
@@ -19,6 +18,7 @@ import {
   PathVisualizer,
   PolylineVisualizer,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import MockDataSource from "../../../../Specs/MockDataSource.js";

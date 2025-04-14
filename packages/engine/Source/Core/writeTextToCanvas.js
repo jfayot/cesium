@@ -1,6 +1,6 @@
 import Color from "./Color.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 
 function measureText(context2D, textString, font, stroke, fill) {

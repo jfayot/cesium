@@ -4,7 +4,7 @@ import Cartesian3 from "../../Core/Cartesian3.js";
 import Cartographic from "../../Core/Cartographic.js";
 import Check from "../../Core/Check.js";
 import ComponentDatatype from "../../Core/ComponentDatatype.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../../Core/Ellipsoid.js";
 import IndexDatatype from "../../Core/IndexDatatype.js";
 import IntersectionTests from "../../Core/IntersectionTests.js";

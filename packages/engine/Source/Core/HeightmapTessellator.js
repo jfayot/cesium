@@ -2,7 +2,7 @@ import AxisAlignedBoundingBox from "./AxisAlignedBoundingBox.js";
 import BoundingSphere from "./BoundingSphere.js";
 import Cartesian2 from "./Cartesian2.js";
 import Cartesian3 from "./Cartesian3.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import Ellipsoid from "./Ellipsoid.js";
 import EllipsoidalOccluder from "./EllipsoidalOccluder.js";

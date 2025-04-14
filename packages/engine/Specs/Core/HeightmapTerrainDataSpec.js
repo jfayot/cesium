@@ -1,10 +1,10 @@
 import {
-  defined,
   GeographicTilingScheme,
   HeightmapEncoding,
   HeightmapTerrainData,
   TerrainData,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Core/HeightmapTerrainData", function () {
   it("conforms to TerrainData interface", function () {

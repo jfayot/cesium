@@ -2,7 +2,7 @@ import Uri from "urijs";
 import Check from "./Check.js";
 import Credit from "./Credit.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Ion from "./Ion.js";
 import Resource from "./Resource.js";
 import RuntimeError from "./RuntimeError.js";

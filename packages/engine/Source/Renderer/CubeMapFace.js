@@ -1,5 +1,5 @@
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import PixelFormat from "../Core/PixelFormat.js";
 import PixelDatatype from "./PixelDatatype.js";

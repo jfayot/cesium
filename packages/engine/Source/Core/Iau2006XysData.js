@@ -1,6 +1,6 @@
 import buildModuleUrl from "./buildModuleUrl.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Iau2006XysSample from "./Iau2006XysSample.js";
 import JulianDate from "./JulianDate.js";
 import Resource from "./Resource.js";

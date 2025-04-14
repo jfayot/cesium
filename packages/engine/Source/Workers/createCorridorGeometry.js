@@ -1,5 +1,5 @@
 import CorridorGeometry from "../Core/CorridorGeometry.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../Core/Ellipsoid.js";
 
 function createCorridorGeometry(corridorGeometry, offset) {

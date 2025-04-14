@@ -1,6 +1,6 @@
 import Cartographic from "../Core/Cartographic.js";
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import FeatureDetection from "../Core/FeatureDetection.js";
 import CesiumMath from "../Core/Math.js";

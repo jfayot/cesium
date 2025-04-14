@@ -1,7 +1,7 @@
 import Check from "./Check.js";
-import defined from "./defined.js";
 import DeveloperError from "./DeveloperError.js";
 import CesiumMath from "./Math.js";
+import { defined } from "@cesium/utils";
 
 /**
  * A 2D Cartesian point.

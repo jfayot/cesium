@@ -2,7 +2,7 @@ import Cartesian2 from "./Cartesian2.js";
 import Cartesian3 from "./Cartesian3.js";
 import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "./Ellipsoid.js";
 import EllipsoidTangentPlane from "./EllipsoidTangentPlane.js";
 import IntersectionTests from "./IntersectionTests.js";

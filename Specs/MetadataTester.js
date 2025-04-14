@@ -1,5 +1,4 @@
 import {
-  defined,
   Frozen,
   DeveloperError,
   FeatureDetection,
@@ -10,6 +9,7 @@ import {
   MetadataTable,
   MetadataType,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 
 function MetadataTester() {}
 

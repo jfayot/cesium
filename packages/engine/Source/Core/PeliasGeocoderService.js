@@ -1,6 +1,6 @@
 import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import GeocodeType from "./GeocodeType.js";
 import Rectangle from "./Rectangle.js";
 import Resource from "./Resource.js";

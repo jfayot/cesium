@@ -1,5 +1,5 @@
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "./destroyObject.js";
 import Iso8601 from "./Iso8601.js";
 import JulianDate from "./JulianDate.js";

@@ -1,5 +1,5 @@
-import defined from "./defined.js";
 import DeveloperError from "./DeveloperError.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Contains functions for checking that supplied arguments are of a specified type

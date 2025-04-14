@@ -2,7 +2,7 @@ import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
 import combine from "./combine.js";
 import Credit from "./Credit.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Rectangle from "./Rectangle.js";
 import Resource from "./Resource.js";
 

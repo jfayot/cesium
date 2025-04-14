@@ -1,9 +1,9 @@
 import {
   Color,
-  defined,
   PostProcessStage,
   PostProcessStageComposite,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

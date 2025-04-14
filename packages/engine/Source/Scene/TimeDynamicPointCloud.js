@@ -1,7 +1,7 @@
 import Check from "../Core/Check.js";
 import combine from "../Core/combine.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Event from "../Core/Event.js";
 import getTimestamp from "../Core/getTimestamp.js";

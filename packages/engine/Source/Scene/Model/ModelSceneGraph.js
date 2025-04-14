@@ -2,7 +2,7 @@ import BoundingSphere from "../../Core/BoundingSphere.js";
 import Cartesian3 from "../../Core/Cartesian3.js";
 import Check from "../../Core/Check.js";
 import Frozen from "../../Core/Frozen.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Matrix4 from "../../Core/Matrix4.js";
 import Transforms from "../../Core/Transforms.js";
 import SceneMode from "../SceneMode.js";

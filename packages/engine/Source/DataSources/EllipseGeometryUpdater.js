@@ -3,7 +3,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Check from "../Core/Check.js";
 import Color from "../Core/Color.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import DistanceDisplayConditionGeometryInstanceAttribute from "../Core/DistanceDisplayConditionGeometryInstanceAttribute.js";
 import EllipseGeometry from "../Core/EllipseGeometry.js";

@@ -4,7 +4,7 @@ import Cartographic from "../../Core/Cartographic.js";
 import Check from "../../Core/Check.js";
 import Credit from "../../Core/Credit.js";
 import Color from "../../Core/Color.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Frozen from "../../Core/Frozen.js";
 import DeveloperError from "../../Core/DeveloperError.js";
 import destroyObject from "../../Core/destroyObject.js";

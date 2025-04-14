@@ -1,6 +1,5 @@
 import {
   ColorGeometryInstanceAttribute,
-  defined,
   GeometryInstance,
   Rectangle,
   RectangleGeometry,
@@ -11,6 +10,7 @@ import {
   PrimitiveCollection,
   VerticalOrigin,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

@@ -1,5 +1,5 @@
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";
 import PolygonHierarchy from "../Core/PolygonHierarchy.js";

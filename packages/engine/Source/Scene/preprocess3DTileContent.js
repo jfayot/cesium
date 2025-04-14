@@ -1,4 +1,4 @@
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import getJsonFromTypedArray from "../Core/getJsonFromTypedArray.js";
 import getMagic from "../Core/getMagic.js";
 import RuntimeError from "../Core/RuntimeError.js";

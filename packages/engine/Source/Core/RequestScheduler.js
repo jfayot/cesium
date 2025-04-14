@@ -1,12 +1,11 @@
 import Uri from "urijs";
 import Check from "./Check.js";
-import defer from "./defer.js";
-import defined from "./defined.js";
 import Event from "./Event.js";
 import Heap from "./Heap.js";
 import isBlobUri from "./isBlobUri.js";
 import isDataUri from "./isDataUri.js";
 import RequestState from "./RequestState.js";
+import { defer, defined } from "@cesium/utils";
 
 function sortRequests(a, b) {
   return a.priority - b.priority;

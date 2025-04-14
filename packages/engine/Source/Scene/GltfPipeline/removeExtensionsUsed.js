@@ -1,5 +1,5 @@
 import removeExtensionsRequired from "./removeExtensionsRequired.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Removes an extension from gltf.extensionsUsed and gltf.extensionsRequired if it is present.

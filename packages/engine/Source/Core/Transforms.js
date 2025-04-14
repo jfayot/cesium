@@ -3,7 +3,7 @@ import Cartesian3 from "./Cartesian3.js";
 import Cartesian4 from "./Cartesian4.js";
 import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import EarthOrientationParameters from "./EarthOrientationParameters.js";
 import EarthOrientationParametersSample from "./EarthOrientationParametersSample.js";

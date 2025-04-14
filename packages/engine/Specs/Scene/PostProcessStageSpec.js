@@ -1,7 +1,6 @@
 import {
   BoundingRectangle,
   Color,
-  defined,
   HeadingPitchRange,
   Math as CesiumMath,
   PixelFormat,
@@ -9,6 +8,7 @@ import {
   PostProcessStage,
   PostProcessStageSampleMode,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

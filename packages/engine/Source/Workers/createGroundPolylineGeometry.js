@@ -1,5 +1,5 @@
 import ApproximateTerrainHeights from "../Core/ApproximateTerrainHeights.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import GroundPolylineGeometry from "../Core/GroundPolylineGeometry.js";
 
 function createGroundPolylineGeometry(groundPolylineGeometry, offset) {

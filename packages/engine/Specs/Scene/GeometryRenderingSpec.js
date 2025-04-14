@@ -12,7 +12,6 @@ import {
   CornerType,
   CorridorGeometry,
   CylinderGeometry,
-  defined,
   EllipseGeometry,
   Ellipsoid,
   EllipsoidGeometry,
@@ -40,6 +39,7 @@ import {
   Primitive,
   SceneMode,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

@@ -2,7 +2,7 @@ import AssociativeArray from "../Core/AssociativeArray.js";
 import buildModuleUrl from "../Core/buildModuleUrl.js";
 import Check from "../Core/Check.js";
 import Credit from "../Core/Credit.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Uri from "urijs";
 

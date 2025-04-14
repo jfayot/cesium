@@ -1,7 +1,7 @@
 import AssociativeArray from "../Core/AssociativeArray.js";
 import BoundingSphere from "../Core/BoundingSphere.js";
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import ClassificationType from "../Scene/ClassificationType.js";
 import PolylineColorAppearance from "../Scene/PolylineColorAppearance.js";

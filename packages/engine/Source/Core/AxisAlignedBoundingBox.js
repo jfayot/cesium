@@ -1,7 +1,7 @@
 import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
-import defined from "./defined.js";
 import Intersect from "./Intersect.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Creates an instance of an AxisAlignedBoundingBox from the minimum and maximum points along the x, y, and z axes.

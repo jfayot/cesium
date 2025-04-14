@@ -1,10 +1,10 @@
 import {
-  defined,
   GeographicTilingScheme,
   QuadtreeTile,
   QuadtreeTileLoadState,
   TileReplacementQueue,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Scene/TileReplacementQueue", function () {
   function Tile(num, loadedState, upsampledState) {

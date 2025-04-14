@@ -23,8 +23,6 @@ import {
   Credit,
   CullFace,
   CullingVolume,
-  defer,
-  defined,
   findTileMetadata,
   findContentMetadata,
   getAbsoluteUri,
@@ -47,6 +45,7 @@ import {
   TileOrientedBoundingBox,
   Transforms,
 } from "../../index.js";
+import { defer, defined } from "@cesium/utils";
 import Cesium3DTilesTester from "../../../../Specs/Cesium3DTilesTester.js";
 import createScene from "../../../../Specs/createScene.js";
 import generateJsonBuffer from "../../../../Specs/generateJsonBuffer.js";

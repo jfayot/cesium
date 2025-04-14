@@ -1,6 +1,6 @@
 import AssociativeArray from "./AssociativeArray.js";
 import Cartesian2 from "./Cartesian2.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "./destroyObject.js";
 import DeveloperError from "./DeveloperError.js";
 import FeatureDetection from "./FeatureDetection.js";

@@ -1,6 +1,6 @@
 import binarySearch from "../Core/binarySearch.js";
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";
 import ExtrapolationType from "../Core/ExtrapolationType.js";

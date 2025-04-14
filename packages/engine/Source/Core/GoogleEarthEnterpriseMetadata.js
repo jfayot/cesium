@@ -2,7 +2,7 @@ import * as protobuf from "protobufjs/dist/minimal/protobuf.js";
 import buildModuleUrl from "./buildModuleUrl.js";
 import Check from "./Check.js";
 import Credit from "./Credit.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import GoogleEarthEnterpriseTileInformation from "./GoogleEarthEnterpriseTileInformation.js";
 import isBitSet from "./isBitSet.js";
 import loadAndExecuteScript from "./loadAndExecuteScript.js";

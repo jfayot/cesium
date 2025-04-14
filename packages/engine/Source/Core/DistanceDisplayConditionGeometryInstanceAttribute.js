@@ -1,5 +1,5 @@
 import ComponentDatatype from "./ComponentDatatype.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 
 /**

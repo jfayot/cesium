@@ -3,7 +3,6 @@ import {
   appendForwardSlash,
   BingMapsImageryProvider,
   BingMapsStyle,
-  defined,
   DiscardEmptyTileImagePolicy,
   Imagery,
   ImageryLayer,
@@ -15,6 +14,7 @@ import {
   RuntimeError,
   WebMercatorTilingScheme,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import pollToPromise from "../../../../Specs/pollToPromise.js";
 import createFakeBingMapsMetadataResponse from "../createFakeBingMapsMetadataResponse.js";

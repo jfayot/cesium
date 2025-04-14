@@ -1,4 +1,4 @@
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Event from "../Core/Event.js";
 import EventHelper from "../Core/EventHelper.js";

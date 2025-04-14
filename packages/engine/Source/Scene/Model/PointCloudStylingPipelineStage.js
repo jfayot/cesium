@@ -3,7 +3,7 @@ import Cartesian4 from "../../Core/Cartesian4.js";
 import CesiumMath from "../../Core/Math.js";
 import Cesium3DTileRefine from "../Cesium3DTileRefine.js";
 import clone from "../../Core/clone.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Matrix4 from "../../Core/Matrix4.js";
 import ModelType from "./ModelType.js";
 import ModelUtility from "./ModelUtility.js";

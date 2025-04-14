@@ -1,5 +1,5 @@
 import Cartesian3 from "../Core/Cartesian3.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import getJsonFromTypedArray from "../Core/getJsonFromTypedArray.js";

@@ -6,7 +6,7 @@ import clone from "../Core/clone.js";
 import Color from "../Core/Color.js";
 import combine from "../Core/combine.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import CesiumMath from "../Core/Math.js";
 import Matrix4 from "../Core/Matrix4.js";

@@ -3,7 +3,6 @@ import {
   Cartesian3,
   Clock,
   ClockStep,
-  defined,
   HeadingPitchRange,
   HeadingPitchRoll,
   JulianDate,
@@ -19,6 +18,7 @@ import {
   ShadowMode,
   TimeDynamicPointCloud,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createCanvas from "../../../../Specs/createCanvas.js";
 import createScene from "../../../../Specs/createScene.js";

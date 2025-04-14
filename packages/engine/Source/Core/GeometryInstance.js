@@ -1,5 +1,5 @@
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import Matrix4 from "./Matrix4.js";
 

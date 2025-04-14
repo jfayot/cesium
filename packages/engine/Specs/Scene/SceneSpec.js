@@ -5,7 +5,6 @@ import {
   Cartesian3,
   CesiumTerrainProvider,
   Color,
-  defined,
   Ellipsoid,
   GeographicProjection,
   GeometryInstance,
@@ -49,6 +48,7 @@ import {
   Resource,
   HeightReference,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createCanvas from "../../../../Specs/createCanvas.js";
 import createScene from "../../../../Specs/createScene.js";

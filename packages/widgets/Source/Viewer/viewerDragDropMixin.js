@@ -1,7 +1,6 @@
 import {
   CzmlDataSource,
   Frozen,
-  defined,
   DeveloperError,
   Event,
   GeoJsonDataSource,
@@ -10,6 +9,7 @@ import {
   KmlDataSource,
   wrapFunction,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 /**
  * A mixin which adds default drag and drop support for CZML files to the Viewer widget.
  * Rather than being called directly, this function is normally passed as

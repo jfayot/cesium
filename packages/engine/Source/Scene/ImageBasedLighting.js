@@ -1,6 +1,6 @@
 import Cartesian2 from "../Core/Cartesian2.js";
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Frozen from "../Core/Frozen.js";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";

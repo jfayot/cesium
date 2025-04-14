@@ -14,7 +14,7 @@ import Cartesian4 from "../../Core/Cartesian4.js";
 import clone from "../../Core/clone.js";
 import ComponentDatatype from "../../Core/ComponentDatatype.js";
 import Frozen from "../../Core/Frozen.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Matrix4 from "../../Core/Matrix4.js";
 import Quaternion from "../../Core/Quaternion.js";
 import WebGLConstants from "../../Core/WebGLConstants.js";

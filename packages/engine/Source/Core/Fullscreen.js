@@ -1,4 +1,4 @@
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 let _supportsFullscreen;
 const _names = {

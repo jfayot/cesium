@@ -3,7 +3,7 @@ import Cartesian3 from "../Core/Cartesian3.js";
 import Cartographic from "../Core/Cartographic.js";
 import Check from "../Core/Check.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import GeometryInstance from "../Core/GeometryInstance.js";
 import IntersectionTests from "../Core/IntersectionTests.js";

@@ -1,5 +1,5 @@
 import Cartesian3 from "../Core/Cartesian3.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import Matrix3 from "../Core/Matrix3.js";
 import ReferenceFrame from "../Core/ReferenceFrame.js";

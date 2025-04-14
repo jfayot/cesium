@@ -1,7 +1,7 @@
 import BoundingRectangle from "../Core/BoundingRectangle.js";
 import Color from "../Core/Color.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import WebGLConstants from "../Core/WebGLConstants.js";
 import WindingOrder from "../Core/WindingOrder.js";

@@ -1,7 +1,7 @@
 import Check from "./Check.js";
 import Credit from "./Credit.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Event from "./Event.js";
 import GeographicTilingScheme from "./GeographicTilingScheme.js";
 import GoogleEarthEnterpriseMetadata from "./GoogleEarthEnterpriseMetadata.js";

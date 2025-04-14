@@ -1,7 +1,7 @@
 import Cartesian2 from "../Core/Cartesian2.js";
 import Color from "../Core/Color.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Event from "../Core/Event.js";
 import JulianDate from "../Core/JulianDate.js";
 import createPropertyDescriptor from "./createPropertyDescriptor.js";

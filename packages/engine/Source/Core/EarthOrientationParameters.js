@@ -1,7 +1,7 @@
 import binarySearch from "./binarySearch.js";
 import Check from "./Check.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import EarthOrientationParametersSample from "./EarthOrientationParametersSample.js";
 import JulianDate from "./JulianDate.js";
 import LeapSecond from "./LeapSecond.js";

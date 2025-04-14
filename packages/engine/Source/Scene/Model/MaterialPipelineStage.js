@@ -1,4 +1,4 @@
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Cartesian3 from "../../Core/Cartesian3.js";
 import Cartesian4 from "../../Core/Cartesian4.js";
 import Matrix3 from "../../Core/Matrix3.js";

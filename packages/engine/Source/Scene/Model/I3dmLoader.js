@@ -5,7 +5,7 @@ import Check from "../../Core/Check.js";
 import clone from "../../Core/clone.js";
 import ComponentDatatype from "../../Core/ComponentDatatype.js";
 import Frozen from "../../Core/Frozen.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "../../Core/Ellipsoid.js";
 import getStringFromTypedArray from "../../Core/getStringFromTypedArray.js";
 import Matrix3 from "../../Core/Matrix3.js";

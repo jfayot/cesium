@@ -1,6 +1,6 @@
 import BoundingRectangle from "../Core/BoundingRectangle.js";
 import Color from "../Core/Color.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import ClearCommand from "../Renderer/ClearCommand.js";
 import FramebufferManager from "../Renderer/FramebufferManager.js";

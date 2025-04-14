@@ -1,7 +1,7 @@
 import BoundingSphere from "../Core/BoundingSphere.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import Color from "../Core/Color.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import Matrix4 from "../Core/Matrix4.js";
 import TaskProcessor from "../Core/TaskProcessor.js";

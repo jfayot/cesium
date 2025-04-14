@@ -1,6 +1,6 @@
 import Check from "./Check.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import Spline from "./Spline.js";
 

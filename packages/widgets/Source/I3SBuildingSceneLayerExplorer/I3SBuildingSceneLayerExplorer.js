@@ -1,4 +1,5 @@
-import { Check, defined } from "@cesium/engine";
+import { Check } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import I3SBuildingSceneLayerExplorerViewModel from "./I3SBuildingSceneLayerExplorerViewModel.js";
 

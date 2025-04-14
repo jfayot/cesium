@@ -5,7 +5,6 @@ import {
   ColorGeometryInstanceAttribute,
   ComponentDatatype,
   CylinderGeometry,
-  defined,
   DistanceDisplayConditionGeometryInstanceAttribute,
   Ellipsoid,
   Geometry,
@@ -28,6 +27,7 @@ import {
   Primitive,
   SceneMode,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import BadGeometry from "../../../../Specs/BadGeometry.js";
 import createContext from "../../../../Specs/createContext.js";

@@ -1,6 +1,6 @@
 import Check from "../Core/Check.js";
 import clone from "../Core/clone.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import Resource from "../Core/Resource.js";
 import RuntimeError from "../Core/RuntimeError.js";
 import hasExtension from "./hasExtension.js";

@@ -5,7 +5,7 @@ import Cartographic from "./Cartographic.js";
 import Check from "./Check.js";
 import ComponentDatatype from "./ComponentDatatype.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "./DeveloperError.js";
 import EllipseGeometryLibrary from "./EllipseGeometryLibrary.js";
 import Ellipsoid from "./Ellipsoid.js";

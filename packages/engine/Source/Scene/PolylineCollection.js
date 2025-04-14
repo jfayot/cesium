@@ -7,7 +7,7 @@ import Color from "../Core/Color.js";
 import combine from "../Core/combine.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import EncodedCartesian3 from "../Core/EncodedCartesian3.js";

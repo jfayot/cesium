@@ -3,7 +3,6 @@ import {
   BoundingSphere,
   Cartesian3,
   Color,
-  defined,
   DistanceDisplayCondition,
   JulianDate,
   Math as CesiumMath,
@@ -21,6 +20,7 @@ import {
   ClassificationType,
   GroundPolylinePrimitive,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

@@ -1,13 +1,13 @@
 import {
   BoundingSphere,
   Color,
-  defined,
   Ellipsoid,
   Matrix3,
   Simon1994PlanetaryPositions,
   Transforms,
   Moon,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 

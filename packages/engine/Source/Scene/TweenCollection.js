@@ -1,6 +1,6 @@
 import clone from "../Core/clone.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import EasingFunction from "../Core/EasingFunction.js";
 import getTimestamp from "../Core/getTimestamp.js";

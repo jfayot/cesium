@@ -1,10 +1,10 @@
 import {
   Cartesian3,
-  defined,
   Matrix4,
   EllipsoidPrimitive,
   Material,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 

@@ -1,5 +1,5 @@
 import Cartesian2 from "../Core/Cartesian2.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import KeyboardEventModifier from "../Core/KeyboardEventModifier.js";

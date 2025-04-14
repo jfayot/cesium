@@ -2,10 +2,10 @@ import {
   buildModuleUrl,
   Check,
   Color,
-  defined,
   destroyObject,
   getElement,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import subscribeAndEvaluate from "../subscribeAndEvaluate.js";
 import InfoBoxViewModel from "./InfoBoxViewModel.js";

@@ -7,7 +7,7 @@ import Color from "../Core/Color.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
 import CoplanarPolygonGeometry from "../Core/CoplanarPolygonGeometry.js";
 import CoplanarPolygonOutlineGeometry from "../Core/CoplanarPolygonOutlineGeometry.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import DistanceDisplayConditionGeometryInstanceAttribute from "../Core/DistanceDisplayConditionGeometryInstanceAttribute.js";
 import EllipsoidTangentPlane from "../Core/EllipsoidTangentPlane.js";

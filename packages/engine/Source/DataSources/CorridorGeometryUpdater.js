@@ -5,7 +5,7 @@ import Color from "../Core/Color.js";
 import ColorGeometryInstanceAttribute from "../Core/ColorGeometryInstanceAttribute.js";
 import CorridorGeometry from "../Core/CorridorGeometry.js";
 import CorridorOutlineGeometry from "../Core/CorridorOutlineGeometry.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import DistanceDisplayConditionGeometryInstanceAttribute from "../Core/DistanceDisplayConditionGeometryInstanceAttribute.js";
 import GeometryInstance from "../Core/GeometryInstance.js";

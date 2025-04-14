@@ -1,4 +1,5 @@
-import { Frozen, defined, DeveloperError } from "@cesium/engine";
+import { Frozen, DeveloperError } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import PerformanceWatchdog from "../PerformanceWatchdog/PerformanceWatchdog.js";
 
 /**

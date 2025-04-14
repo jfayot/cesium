@@ -1,5 +1,5 @@
 import AssociativeArray from "../Core/AssociativeArray.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DistanceDisplayCondition from "../Core/DistanceDisplayCondition.js";
 import DistanceDisplayConditionGeometryInstanceAttribute from "../Core/DistanceDisplayConditionGeometryInstanceAttribute.js";
 import RectangleCollisionChecker from "../Core/RectangleCollisionChecker.js";

@@ -2,7 +2,6 @@ import {
   Cartesian2,
   Cartesian3,
   Cartesian4,
-  defined,
   EarthOrientationParameters,
   Ellipsoid,
   GeographicProjection,
@@ -18,6 +17,7 @@ import {
   TimeInterval,
   Transforms,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 describe("Core/Transforms", function () {
   const negativeX = new Cartesian4(-1, 0, 0, 0);

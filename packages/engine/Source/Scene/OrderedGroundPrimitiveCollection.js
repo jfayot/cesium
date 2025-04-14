@@ -1,5 +1,5 @@
 import Check from "../Core/Check.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import PrimitiveCollection from "./PrimitiveCollection.js";
 

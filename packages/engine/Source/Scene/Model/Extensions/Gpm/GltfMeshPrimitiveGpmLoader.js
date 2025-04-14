@@ -1,6 +1,6 @@
 import Check from "../../../../Core/Check.js";
 import Frozen from "../../../../Core/Frozen.js";
-import defined from "../../../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import ResourceCache from "../../../ResourceCache.js";
 import ResourceLoader from "../../../ResourceLoader.js";
 import ResourceLoaderState from "../../../ResourceLoaderState.js";

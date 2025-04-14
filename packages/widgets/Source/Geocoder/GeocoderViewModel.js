@@ -1,6 +1,5 @@
 import {
   computeFlyToLocationForRectangle,
-  defined,
   DeveloperError,
   destroyObject,
   Event,
@@ -13,6 +12,7 @@ import {
   Rectangle,
   sampleTerrainMostDetailed,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import createCommand from "../createCommand.js";
 

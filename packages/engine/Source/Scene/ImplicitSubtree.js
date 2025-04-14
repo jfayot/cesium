@@ -1,6 +1,6 @@
 import Check from "../Core/Check.js";
 import DeveloperError from "../Core/DeveloperError.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import getJsonFromTypedArray from "../Core/getJsonFromTypedArray.js";
 import RuntimeError from "../Core/RuntimeError.js";

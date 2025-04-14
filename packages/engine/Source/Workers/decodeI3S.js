@@ -1,5 +1,5 @@
 import createTaskProcessorWorker from "./createTaskProcessorWorker.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import WebMercatorProjection from "../Core/WebMercatorProjection.js";
 import Ellipsoid from "../Core/Ellipsoid.js";
 import Cartographic from "../Core/Cartographic.js";

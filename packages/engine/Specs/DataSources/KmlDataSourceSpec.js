@@ -8,7 +8,6 @@ import {
   Color,
   combine,
   Credit,
-  defer,
   Ellipsoid,
   Event,
   HeadingPitchRange,
@@ -38,6 +37,7 @@ import {
   LabelStyle,
   SceneMode,
 } from "../../index.js";
+import { defer } from "@cesium/utils";
 
 import createCamera from "../../../../Specs/createCamera.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

@@ -1,5 +1,5 @@
 import usesExtension from "./usesExtension.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Contains traversal functions for processing elements of the glTF hierarchy.

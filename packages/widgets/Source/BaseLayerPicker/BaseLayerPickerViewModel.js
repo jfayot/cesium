@@ -1,11 +1,11 @@
 import {
   Frozen,
-  defined,
   DeveloperError,
   EllipsoidTerrainProvider,
   ImageryLayer,
   Terrain,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import createCommand from "../createCommand.js";
 

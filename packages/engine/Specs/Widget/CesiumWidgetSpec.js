@@ -13,7 +13,6 @@ import {
   ConstantProperty,
   DataSourceClock,
   DataSourceCollection,
-  defined,
   EllipsoidTerrainProvider,
   Entity,
   HeadingPitchRange,
@@ -33,6 +32,7 @@ import {
   SkyBox,
   TileCoordinatesImageryProvider,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import DomEventSimulator from "../../../../Specs/DomEventSimulator.js";
 import getWebGLStub from "../../../../Specs/getWebGLStub.js";

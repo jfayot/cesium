@@ -1,7 +1,6 @@
 import {
   Cartesian3,
   Cartographic,
-  defined,
   Ellipsoid,
   EventHelper,
   GeographicProjection,
@@ -18,6 +17,7 @@ import {
   QuadtreeTileLoadState,
   SceneMode,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 import MockTerrainProvider from "../../../../Specs/MockTerrainProvider.js";
 import TerrainTileProcessor from "../../../../Specs/TerrainTileProcessor.js";
 

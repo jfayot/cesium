@@ -4,7 +4,6 @@ import Cartesian3 from "./Cartesian3.js";
 import Check from "./Check.js";
 import Credit from "./Credit.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
 import Ellipsoid from "./Ellipsoid.js";
 import Event from "./Event.js";
 import GeographicTilingScheme from "./GeographicTilingScheme.js";
@@ -22,6 +21,7 @@ import RuntimeError from "./RuntimeError.js";
 import TerrainProvider from "./TerrainProvider.js";
 import TileAvailability from "./TileAvailability.js";
 import TileProviderError from "./TileProviderError.js";
+import { defined } from "@cesium/utils";
 
 function LayerInformation(layer) {
   this.resource = layer.resource;

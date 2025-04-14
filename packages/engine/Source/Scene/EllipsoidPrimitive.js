@@ -3,7 +3,7 @@ import BoxGeometry from "../Core/BoxGeometry.js";
 import Cartesian3 from "../Core/Cartesian3.js";
 import combine from "../Core/combine.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import DeveloperError from "../Core/DeveloperError.js";
 import Matrix4 from "../Core/Matrix4.js";

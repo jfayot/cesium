@@ -1,5 +1,5 @@
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import CzmBuiltins from "../Shaders/Builtin/CzmBuiltins.js";
 import AutomaticUniforms from "./AutomaticUniforms.js";

@@ -1,7 +1,7 @@
 import ForEach from "./ForEach.js";
 import forEachTextureInMaterial from "./forEachTextureInMaterial.js";
 import usesExtension from "./usesExtension.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 const allElementTypes = [
   "mesh",

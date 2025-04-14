@@ -1,6 +1,6 @@
 import Check from "../Core/Check.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import PropertyTable from "./PropertyTable.js";
 import PropertyTexture from "./PropertyTexture.js";
 import PropertyAttribute from "./PropertyAttribute.js";

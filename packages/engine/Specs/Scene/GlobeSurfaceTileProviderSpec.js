@@ -5,7 +5,6 @@ import {
   Color,
   Credit,
   CreditDisplay,
-  defined,
   Ellipsoid,
   EllipsoidTerrainProvider,
   GeographicProjection,
@@ -33,6 +32,7 @@ import {
   SplitDirection,
   WebMapServiceImageryProvider,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";

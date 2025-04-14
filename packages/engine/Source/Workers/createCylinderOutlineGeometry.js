@@ -1,5 +1,5 @@
 import CylinderOutlineGeometry from "../Core/CylinderOutlineGeometry.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 
 function createCylinderOutlineGeometry(cylinderGeometry, offset) {
   if (defined(offset)) {

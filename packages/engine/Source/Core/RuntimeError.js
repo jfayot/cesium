@@ -1,4 +1,4 @@
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 
 /**
  * Constructs an exception object that is thrown due to an error that can occur at runtime, e.g.,

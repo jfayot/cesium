@@ -3,7 +3,7 @@ import Check from "../Core/Check.js";
 import clone from "../Core/clone.js";
 import combine from "../Core/combine.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import DeveloperError from "../Core/DeveloperError.js";
 import getBinaryAccessor from "./getBinaryAccessor.js";
 import RuntimeError from "../Core/RuntimeError.js";

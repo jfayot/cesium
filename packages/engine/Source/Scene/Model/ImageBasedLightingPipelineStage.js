@@ -1,5 +1,5 @@
 import combine from "../../Core/combine.js";
-import defined from "../../Core/defined.js";
+import { defined } from "@cesium/utils";
 import ImageBasedLightingStageFS from "../../Shaders/Model/ImageBasedLightingStageFS.js";
 import ShaderDestination from "../../Renderer/ShaderDestination.js";
 import SpecularEnvironmentCubeMap from "../SpecularEnvironmentCubeMap.js";

@@ -4,7 +4,6 @@ import {
   Cartesian3,
   Color,
   ColorGeometryInstanceAttribute,
-  defined,
   destroyObject,
   Ellipsoid,
   GeometryInstance,
@@ -24,6 +23,7 @@ import {
   Primitive,
   StencilConstants,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import createScene from "../../../../Specs/createScene.js";
 

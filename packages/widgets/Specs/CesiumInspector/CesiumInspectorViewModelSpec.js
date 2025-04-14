@@ -1,5 +1,4 @@
 import {
-  defined,
   GeometryInstance,
   Rectangle,
   RectangleGeometry,
@@ -11,6 +10,7 @@ import {
   QuadtreeTile,
   Math as CesiumMath,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 
 import { CesiumInspectorViewModel } from "../../index.js";
 

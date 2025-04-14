@@ -7,7 +7,7 @@ import ComponentDatatype from "./ComponentDatatype.js";
 import CornerType from "./CornerType.js";
 import CorridorGeometryLibrary from "./CorridorGeometryLibrary.js";
 import Frozen from "./Frozen.js";
-import defined from "./defined.js";
+import { defined } from "@cesium/utils";
 import Ellipsoid from "./Ellipsoid.js";
 import Geometry from "./Geometry.js";
 import GeometryAttribute from "./GeometryAttribute.js";

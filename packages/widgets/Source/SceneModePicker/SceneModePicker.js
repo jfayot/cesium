@@ -1,10 +1,10 @@
 import {
-  defined,
   destroyObject,
   DeveloperError,
   FeatureDetection,
   getElement,
 } from "@cesium/engine";
+import { defined } from "@cesium/utils";
 import knockout from "../ThirdParty/knockout.js";
 import SceneModePickerViewModel from "./SceneModePickerViewModel.js";
 

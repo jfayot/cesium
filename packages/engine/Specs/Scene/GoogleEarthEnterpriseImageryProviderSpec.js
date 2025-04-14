@@ -1,7 +1,6 @@
 import Uri from "urijs";
 import {
   decodeGoogleEarthEnterpriseData,
-  defined,
   DiscardMissingTileImagePolicy,
   GeographicTilingScheme,
   GoogleEarthEnterpriseImageryProvider,
@@ -17,6 +16,7 @@ import {
   Resource,
   RuntimeError,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 
 import pollToPromise from "../../../../Specs/pollToPromise.js";
 

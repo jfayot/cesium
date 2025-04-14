@@ -3,7 +3,6 @@ import {
   Cartesian2,
   Cartesian3,
   Color,
-  defined,
   DistanceDisplayCondition,
   HeightReference,
   JulianDate,
@@ -26,6 +25,7 @@ import {
   Globe,
   Cartographic,
 } from "../../index.js";
+import { defined } from "@cesium/utils";
 import createScene from "../../../../Specs/createScene.js";
 import pollToPromise from "../../../../Specs/pollToPromise.js";
 

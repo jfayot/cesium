@@ -7,7 +7,7 @@ import Check from "../Core/Check.js";
 import Color from "../Core/Color.js";
 import ComponentDatatype from "../Core/ComponentDatatype.js";
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import destroyObject from "../Core/destroyObject.js";
 import EncodedCartesian3 from "../Core/EncodedCartesian3.js";
 import IndexDatatype from "../Core/IndexDatatype.js";

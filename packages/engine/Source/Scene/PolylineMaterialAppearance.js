@@ -1,5 +1,5 @@
 import Frozen from "../Core/Frozen.js";
-import defined from "../Core/defined.js";
+import { defined } from "@cesium/utils";
 import FeatureDetection from "../Core/FeatureDetection.js";
 import VertexFormat from "../Core/VertexFormat.js";
 import PolylineMaterialAppearanceVS from "../Shaders/Appearances/PolylineMaterialAppearanceVS.js";
