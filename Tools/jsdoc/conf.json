@@ -6,7 +6,7 @@
         "include": [
             "packages/engine/Source",
             "packages/widgets/Source",
-            "packages/utils/src"
+            "packages/utils/Source"
         ],
         "exclude": [
             "packages/engine/Source/ThirdParty",

@@ -118,7 +118,7 @@
     "clean": "gulp clean",
     "cloc": "gulp cloc",
     "coverage": "gulp coverage",
-    "build-docs": "node Tools/extractJsDoc.js packages/utils/src && gulp buildDocs",
+    "build-docs": "node Tools/extractJsDoc.js packages/utils/Source && gulp buildDocs",
     "build-docs-watch": "gulp buildDocsWatch",
     "eslint": "eslint \"./**/*.*js\" \"./**/*.html\" --cache --quiet",
     "make-zip": "gulp makeZip",

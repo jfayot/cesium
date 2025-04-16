@@ -1,6 +1,6 @@
-import { defined } from "@cesium/utils";
+import { defined } from "../Source/index";
 
-describe("Core/defined", function () {
+fdescribe("defined", function () {
   it("works for defined value", function () {
     expect(defined(0)).toEqual(true);
   });

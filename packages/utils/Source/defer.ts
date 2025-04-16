@@ -40,7 +40,7 @@ export type Deferred<T> = {
  * @returns {Deferred<T>} - A deferred object with `resolve`, `reject`, and `promise` properties.
  * @private
  */
-export default function defer<T>(value: T): Deferred<T> {
+export default function defer<T>(): Deferred<T> {
   let resolve!: (value: T) => void;
   let reject!: (reason?: any) => void;
   const promise = new Promise<T>((res, rej) => {

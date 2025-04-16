@@ -307,6 +307,7 @@ export async function createCesiumJs() {
 const workspaceSpecFiles = {
   engine: ["packages/engine/Specs/**/*Spec.js"],
   widgets: ["packages/widgets/Specs/**/*Spec.js"],
+  utils: ["packages/utils/Build/Specs/**/*Spec.js"],
 };
 
 /**
